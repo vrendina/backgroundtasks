@@ -8,16 +8,26 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:label="Background Tasks Demo">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AsyncTaskActivity" />
-        <activity android:name=".AsyncTaskLoaderActivity" />
-        <activity android:name=".ObservableActivity"></activity>
+
+        <activity android:name=".AsyncTaskActivity"
+            android:label="Async Task"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".AsyncTaskLoaderActivity"
+            android:label="AsyncTask Loader"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".ObservableActivity"
+            android:label="Observable"
+            android:parentActivityName=".MainActivity"/>
     </application>
 
 </manifest>
