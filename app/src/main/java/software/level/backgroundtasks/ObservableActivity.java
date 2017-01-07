@@ -17,6 +17,8 @@ public class ObservableActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_observable);
+
+        progressBar = (ProgressBar) findViewById(R.id.pb_task);
     }
 
     public void startTask(View view) {

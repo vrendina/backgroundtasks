@@ -18,6 +18,8 @@ public class AsyncTaskLoaderActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_async_task_loader);
+
+        progressBar = (ProgressBar) findViewById(R.id.pb_task);
     }
 
     public void startTask(View view) {
