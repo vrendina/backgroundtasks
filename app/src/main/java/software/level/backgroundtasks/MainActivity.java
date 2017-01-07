@@ -25,6 +25,14 @@ public class MainActivity extends AppCompatActivity {
             case R.id.btn_async_task:
                 intent = new Intent(this, AsyncTaskActivity.class);
                 break;
+
+            case R.id.btn_async_task_loader:
+                intent = new Intent(this, AsyncTaskLoaderActivity.class);
+                break;
+
+            case R.id.btn_observable:
+                intent = new Intent(this, ObservableActivity.class);
+                break;
         }
 
         if(intent != null) {
