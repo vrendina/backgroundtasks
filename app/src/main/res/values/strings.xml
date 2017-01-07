@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">BackgroundTasks</string>
+    <string name="asynctask">Async Task</string>
+    <string name="asynctaskloader">Async Task Loader</string>
+    <string name="observable">Observable</string>
+    <string name="start">Start Task</string>
 </resources>
