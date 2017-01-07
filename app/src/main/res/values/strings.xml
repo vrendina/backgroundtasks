@@ -6,4 +6,5 @@
     <string name="start">Start Task</string>
     <string name="response">The contents of this TextView should be updated when the task is complete.</string>
     <string name="asynctask_msg">Rotating the device while an AsyncTask is executing will cause the activity to be destroyed. The AsyncTask will still complete but will no longer have a reference to the activity that started the task. The TextView will not be updated when the task completes.</string>
+    <string name="asynctaskloader_msg">Rotating the device while the AsyncTask Loader is running will still allow the TextView to be updated once the task is complete.</string>
 </resources>
