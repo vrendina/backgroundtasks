@@ -8,6 +8,12 @@
         android:id="@+id/btn_start_task"
         android:onClick="startTask"/>
 
+    <TextView
+        android:text="@string/response"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_response" />
+
     <ProgressBar
         style="?android:attr/progressBarStyleLarge"
         android:layout_width="match_parent"

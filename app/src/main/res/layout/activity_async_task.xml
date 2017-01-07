@@ -12,6 +12,11 @@
     tools:context="software.level.backgroundtasks.AsyncTaskActivity">
 
 
+    <TextView
+        android:text="@string/asynctask_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
     <include layout="@layout/content" />
 
 </LinearLayout>
