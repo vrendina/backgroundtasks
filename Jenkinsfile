@@ -37,4 +37,7 @@ echo "Hello world"'''
       }
     }
   }
+  environment {
+    TEST = 'test'
+  }
 }
