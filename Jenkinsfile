@@ -6,10 +6,12 @@ pipeline {
         parallel(
           "Test Build": {
             echo 'Hello!'
+            sh 'echo "Test"'
             
           },
           "Release Build": {
             echo 'Release hello'
+            slackSend(message: 'Test', botUser: true)
             
           }
         )
